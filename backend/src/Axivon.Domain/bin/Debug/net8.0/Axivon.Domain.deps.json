@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Axivon.Domain/1.0.0": {
+        "dependencies": {
+          "Axivon.Shared": "1.0.0"
+        },
+        "runtime": {
+          "Axivon.Domain.dll": {}
+        }
+      },
+      "Axivon.Shared/1.0.0": {
+        "runtime": {
+          "Axivon.Shared.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Axivon.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Axivon.Shared/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

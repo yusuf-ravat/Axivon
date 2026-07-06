@@ -1,0 +1,4 @@
+export const env = {
+  NODE_ENV: 'development',
+  API_URL: 'https://api.example.com',
+};

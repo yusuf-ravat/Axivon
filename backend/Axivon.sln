@@ -1,0 +1,48 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Axivon.API", "src\Axivon.API\Axivon.API.csproj", "{9A19103F-16F7-4668-BE54-9A1E7A4F7556}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Axivon.Application", "src\Axivon.Application\Axivon.Application.csproj", "{8B9F044A-E5F6-4D2A-B966-EED5B31FC972}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Axivon.Domain", "src\Axivon.Domain\Axivon.Domain.csproj", "{7A5B022C-4EFA-4C1A-9877-DDC5F438D112}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Axivon.Infrastructure", "src\Axivon.Infrastructure\Axivon.Infrastructure.csproj", "{6C4D033F-1F5B-441A-9B33-CC77A14CF223}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Axivon.Persistence", "src\Axivon.Persistence\Axivon.Persistence.csproj", "{5D2E044D-2F6E-451A-9B22-BB88A15DF334}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Axivon.Shared", "src\Axivon.Shared\Axivon.Shared.csproj", "{4C1D055E-3F7E-461A-9B11-AA99A16EF445}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9A19103F-16F7-4668-BE54-9A1E7A4F7556}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A19103F-16F7-4668-BE54-9A1E7A4F7556}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A19103F-16F7-4668-BE54-9A1E7A4F7556}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A19103F-16F7-4668-BE54-9A1E7A4F7556}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B9F044A-E5F6-4D2A-B966-EED5B31FC972}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B9F044A-E5F6-4D2A-B966-EED5B31FC972}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B9F044A-E5F6-4D2A-B966-EED5B31FC972}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B9F044A-E5F6-4D2A-B966-EED5B31FC972}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A5B022C-4EFA-4C1A-9877-DDC5F438D112}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A5B022C-4EFA-4C1A-9877-DDC5F438D112}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A5B022C-4EFA-4C1A-9877-DDC5F438D112}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A5B022C-4EFA-4C1A-9877-DDC5F438D112}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C4D033F-1F5B-441A-9B33-CC77A14CF223}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C4D033F-1F5B-441A-9B33-CC77A14CF223}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C4D033F-1F5B-441A-9B33-CC77A14CF223}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C4D033F-1F5B-441A-9B33-CC77A14CF223}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D2E044D-2F6E-451A-9B22-BB88A15DF334}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D2E044D-2F6E-451A-9B22-BB88A15DF334}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D2E044D-2F6E-451A-9B22-BB88A15DF334}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D2E044D-2F6E-451A-9B22-BB88A15DF334}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C1D055E-3F7E-461A-9B11-AA99A16EF445}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C1D055E-3F7E-461A-9B11-AA99A16EF445}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C1D055E-3F7E-461A-9B11-AA99A16EF445}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C1D055E-3F7E-461A-9B11-AA99A16EF445}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

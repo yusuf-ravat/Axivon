@@ -1,0 +1,143 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 240 20% 98%;
+    --foreground: 240 10% 4%;
+    --card: 0 0% 100%;
+    --card-foreground: 240 10% 4%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 240 10% 4%;
+    --primary: 243 75% 59%;
+    --primary-foreground: 0 0% 98%;
+    --secondary: 240 4.8% 95.9%;
+    --secondary-foreground: 240 5.9% 10%;
+    --muted: 240 4.8% 96%;
+    --muted-foreground: 240 4% 46%;
+    --accent: 240 4.8% 95.9%;
+    --accent-foreground: 240 5.9% 10%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 240 6% 90%;
+    --input: 240 6% 90%;
+    --ring: 243 75% 59%;
+    --radius: 0.75rem;
+  }
+
+  .dark {
+    --background: 240 10% 4%;
+    --foreground: 0 0% 98%;
+    --card: 240 10% 6%;
+    --card-foreground: 0 0% 98%;
+    --popover: 240 10% 5%;
+    --popover-foreground: 0 0% 98%;
+    --primary: 243 75% 59%;
+    --primary-foreground: 0 0% 98%;
+    --secondary: 240 3.7% 12%;
+    --secondary-foreground: 0 0% 98%;
+    --muted: 240 3.7% 10%;
+    --muted-foreground: 240 5% 65%;
+    --accent: 240 3.7% 12%;
+    --accent-foreground: 0 0% 98%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 240 3.7% 12%;
+    --input: 240 3.7% 12%;
+    --ring: 243 75% 59%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+    font-family: 'Plus Jakarta Sans', system-ui, sans-serif;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}
+
+@layer utilities {
+  .glassmorphism {
+    @apply bg-card/65 backdrop-blur-md border border-white/5;
+  }
+  .glow-primary {
+    box-shadow: 0 0 25px -5px rgba(99, 102, 241, 0.4);
+  }
+  .glow-card {
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.03);
+  }
+  .dark .glow-card {
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.35);
+  }
+  .glass-card {
+    background: rgba(255, 255, 255, 0.45) !important;
+    backdrop-filter: blur(24px) saturate(180%) !important;
+    -webkit-backdrop-filter: blur(24px) saturate(180%) !important;
+    border: 1px solid rgba(255, 255, 255, 0.6) !important;
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.06) !important;
+  }
+  .dark .glass-card {
+    background: rgba(15, 23, 42, 0.45) !important;
+    backdrop-filter: blur(24px) saturate(180%) !important;
+    -webkit-backdrop-filter: blur(24px) saturate(180%) !important;
+    border: 1px solid rgba(255, 255, 255, 0.08) !important;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.3) !important;
+  }
+}
+
+@keyframes swapDb {
+  0%, 20% { transform: rotateX(28deg) rotateY(-14deg) rotateZ(4deg) translateZ(-30px) translateX(0); z-index: 10; }
+  25%, 45% { transform: rotateX(28deg) rotateY(-14deg) rotateZ(4deg) translateZ(-10px) translateX(0); z-index: 15; }
+  50%, 70% { transform: rotateX(28deg) rotateY(-14deg) rotateZ(4deg) translateZ(10px) translateX(0); z-index: 20; }
+  75%, 90% { transform: rotateX(28deg) rotateY(-14deg) rotateZ(4deg) translateZ(30px) translateX(0); z-index: 30; }
+  93% { transform: rotateX(28deg) rotateY(-14deg) rotateZ(4deg) translateZ(50px) translateX(190px) scale(1.02); z-index: 30; }
+  96% { transform: rotateX(28deg) rotateY(-14deg) rotateZ(4deg) translateZ(-40px) translateX(190px) scale(0.98); z-index: 10; }
+  100% { transform: rotateX(28deg) rotateY(-14deg) rotateZ(4deg) translateZ(-30px) translateX(0); z-index: 10; }
+}
+@keyframes swapPipeline {
+  0%, 20% { transform: rotateX(28deg) rotateY(-14deg) rotateZ(4deg) translateZ(-10px) translateX(0); z-index: 15; }
+  25%, 45% { transform: rotateX(28deg) rotateY(-14deg) rotateZ(4deg) translateZ(10px) translateX(0); z-index: 20; }
+  50%, 70% { transform: rotateX(28deg) rotateY(-14deg) rotateZ(4deg) translateZ(30px) translateX(0); z-index: 30; }
+  73% { transform: rotateX(28deg) rotateY(-14deg) rotateZ(4deg) translateZ(50px) translateX(190px) scale(1.02); z-index: 30; }
+  76% { transform: rotateX(28deg) rotateY(-14deg) rotateZ(4deg) translateZ(-40px) translateX(190px) scale(0.98); z-index: 10; }
+  80%, 95% { transform: rotateX(28deg) rotateY(-14deg) rotateZ(4deg) translateZ(-30px) translateX(0); z-index: 10; }
+  100% { transform: rotateX(28deg) rotateY(-14deg) rotateZ(4deg) translateZ(-10px) translateX(0); z-index: 15; }
+}
+@keyframes swapAi {
+  0%, 20% { transform: rotateX(28deg) rotateY(-14deg) rotateZ(4deg) translateZ(10px) translateX(0); z-index: 20; }
+  25%, 45% { transform: rotateX(28deg) rotateY(-14deg) rotateZ(4deg) translateZ(30px) translateX(0); z-index: 30; }
+  48% { transform: rotateX(28deg) rotateY(-14deg) rotateZ(4deg) translateZ(50px) translateX(190px) scale(1.02); z-index: 30; }
+  51% { transform: rotateX(28deg) rotateY(-14deg) rotateZ(4deg) translateZ(-40px) translateX(190px) scale(0.98); z-index: 10; }
+  55%, 70% { transform: rotateX(28deg) rotateY(-14deg) rotateZ(4deg) translateZ(-30px) translateX(0); z-index: 10; }
+  75%, 95% { transform: rotateX(28deg) rotateY(-14deg) rotateZ(4deg) translateZ(-10px) translateX(0); z-index: 15; }
+  100% { transform: rotateX(28deg) rotateY(-14deg) rotateZ(4deg) translateZ(10px) translateX(0); z-index: 20; }
+}
+@keyframes swapTasks {
+  0%, 20% { transform: rotateX(28deg) rotateY(-14deg) rotateZ(4deg) translateZ(30px) translateX(0); z-index: 30; }
+  23% { transform: rotateX(28deg) rotateY(-14deg) rotateZ(4deg) translateZ(50px) translateX(190px) scale(1.02); z-index: 30; }
+  26% { transform: rotateX(28deg) rotateY(-14deg) rotateZ(4deg) translateZ(-40px) translateX(190px) scale(0.98); z-index: 10; }
+  30%, 45% { transform: rotateX(28deg) rotateY(-14deg) rotateZ(4deg) translateZ(-30px) translateX(0); z-index: 10; }
+  50%, 70% { transform: rotateX(28deg) rotateY(-14deg) rotateZ(4deg) translateZ(-10px) translateX(0); z-index: 15; }
+  75%, 95% { transform: rotateX(28deg) rotateY(-14deg) rotateZ(4deg) translateZ(10px) translateX(0); z-index: 20; }
+  100% { transform: rotateX(28deg) rotateY(-14deg) rotateZ(4deg) translateZ(30px) translateX(0); z-index: 30; }
+}
+
+.animate-float-db {
+  animation: swapDb 12s cubic-bezier(0.25, 1, 0.5, 1) infinite;
+}
+.animate-float-pipeline {
+  animation: swapPipeline 12s cubic-bezier(0.25, 1, 0.5, 1) infinite;
+}
+.animate-float-ai {
+  animation: swapAi 12s cubic-bezier(0.25, 1, 0.5, 1) infinite;
+}
+.animate-float-tasks {
+  animation: swapTasks 12s cubic-bezier(0.25, 1, 0.5, 1) infinite;
+}
+

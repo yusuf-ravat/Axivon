@@ -1,0 +1,17 @@
+C:\Users\yusuf\Documents\Axivon\backend\src\Axivon.Application\bin\Debug\net8.0\Axivon.Application.deps.json
+C:\Users\yusuf\Documents\Axivon\backend\src\Axivon.Application\bin\Debug\net8.0\Axivon.Application.dll
+C:\Users\yusuf\Documents\Axivon\backend\src\Axivon.Application\bin\Debug\net8.0\Axivon.Application.pdb
+C:\Users\yusuf\Documents\Axivon\backend\src\Axivon.Application\bin\Debug\net8.0\Axivon.Domain.dll
+C:\Users\yusuf\Documents\Axivon\backend\src\Axivon.Application\bin\Debug\net8.0\Axivon.Shared.dll
+C:\Users\yusuf\Documents\Axivon\backend\src\Axivon.Application\bin\Debug\net8.0\Axivon.Domain.pdb
+C:\Users\yusuf\Documents\Axivon\backend\src\Axivon.Application\bin\Debug\net8.0\Axivon.Shared.pdb
+C:\Users\yusuf\Documents\Axivon\backend\src\Axivon.Application\obj\Debug\net8.0\Axivon.Application.csproj.AssemblyReference.cache
+C:\Users\yusuf\Documents\Axivon\backend\src\Axivon.Application\obj\Debug\net8.0\Axivon.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\yusuf\Documents\Axivon\backend\src\Axivon.Application\obj\Debug\net8.0\Axivon.Application.AssemblyInfoInputs.cache
+C:\Users\yusuf\Documents\Axivon\backend\src\Axivon.Application\obj\Debug\net8.0\Axivon.Application.AssemblyInfo.cs
+C:\Users\yusuf\Documents\Axivon\backend\src\Axivon.Application\obj\Debug\net8.0\Axivon.Application.csproj.CoreCompileInputs.cache
+C:\Users\yusuf\Documents\Axivon\backend\src\Axivon.Application\obj\Debug\net8.0\Axivon.A.F4FD37E7.Up2Date
+C:\Users\yusuf\Documents\Axivon\backend\src\Axivon.Application\obj\Debug\net8.0\Axivon.Application.dll
+C:\Users\yusuf\Documents\Axivon\backend\src\Axivon.Application\obj\Debug\net8.0\refint\Axivon.Application.dll
+C:\Users\yusuf\Documents\Axivon\backend\src\Axivon.Application\obj\Debug\net8.0\Axivon.Application.pdb
+C:\Users\yusuf\Documents\Axivon\backend\src\Axivon.Application\obj\Debug\net8.0\ref\Axivon.Application.dll

@@ -1,0 +1,11 @@
+C:\Users\yusuf\Documents\Axivon\backend\src\Axivon.Shared\bin\Debug\net8.0\Axivon.Shared.deps.json
+C:\Users\yusuf\Documents\Axivon\backend\src\Axivon.Shared\bin\Debug\net8.0\Axivon.Shared.dll
+C:\Users\yusuf\Documents\Axivon\backend\src\Axivon.Shared\bin\Debug\net8.0\Axivon.Shared.pdb
+C:\Users\yusuf\Documents\Axivon\backend\src\Axivon.Shared\obj\Debug\net8.0\Axivon.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\yusuf\Documents\Axivon\backend\src\Axivon.Shared\obj\Debug\net8.0\Axivon.Shared.AssemblyInfoInputs.cache
+C:\Users\yusuf\Documents\Axivon\backend\src\Axivon.Shared\obj\Debug\net8.0\Axivon.Shared.AssemblyInfo.cs
+C:\Users\yusuf\Documents\Axivon\backend\src\Axivon.Shared\obj\Debug\net8.0\Axivon.Shared.csproj.CoreCompileInputs.cache
+C:\Users\yusuf\Documents\Axivon\backend\src\Axivon.Shared\obj\Debug\net8.0\Axivon.Shared.dll
+C:\Users\yusuf\Documents\Axivon\backend\src\Axivon.Shared\obj\Debug\net8.0\refint\Axivon.Shared.dll
+C:\Users\yusuf\Documents\Axivon\backend\src\Axivon.Shared\obj\Debug\net8.0\Axivon.Shared.pdb
+C:\Users\yusuf\Documents\Axivon\backend\src\Axivon.Shared\obj\Debug\net8.0\ref\Axivon.Shared.dll
