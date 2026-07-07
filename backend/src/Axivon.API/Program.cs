@@ -35,11 +35,11 @@ public class Program
             // builder.Services.AddScoped<IApplicationDbContext>(provider => 
             //     provider.GetRequiredService<AxivonDbContext>());
             
-+            // 2. Configure SQLite Database (configurable for production)
-+            var connectionString = builder.Configuration.GetConnectionString("DefaultConnection") 
-+                                   ?? "Data Source=axivon.db";
-+            builder.Services.AddDbContext<AxivonDbContext>(options =>
-+                options.UseSqlite(connectionString));
+            // 2. Configure SQLite Database (configurable for production)
+            var connectionString = builder.Configuration.GetConnectionString("DefaultConnection") 
+                                   ?? "Data Source=axivon.db";
+            builder.Services.AddDbContext<AxivonDbContext>(options =>
+                options.UseSqlite(connectionString));
 
 
 
