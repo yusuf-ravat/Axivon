@@ -28,12 +28,21 @@ public class Program
             var builder = WebApplication.CreateBuilder(args);
             builder.Host.UseSerilog();
 
-            // 2. Configure SQLite local Database
-            builder.Services.AddDbContext<AxivonDbContext>(options =>
-                options.UseSqlite("Data Source=axivon.db"));
+            // // 2. Configure SQLite local Database
+            // builder.Services.AddDbContext<AxivonDbContext>(options =>
+            //     options.UseSqlite("Data Source=axivon.db"));
             
-            builder.Services.AddScoped<IApplicationDbContext>(provider => 
-                provider.GetRequiredService<AxivonDbContext>());
+            // builder.Services.AddScoped<IApplicationDbContext>(provider => 
+            //     provider.GetRequiredService<AxivonDbContext>());
+            
++            // 2. Configure SQLite Database (configurable for production)
++            var connectionString = builder.Configuration.GetConnectionString("DefaultConnection") 
++                                   ?? "Data Source=axivon.db";
++            builder.Services.AddDbContext<AxivonDbContext>(options =>
++                options.UseSqlite(connectionString));
+
+
+
 
             // 3. Configure JWT Authentication
             var jwtKey = builder.Configuration["Jwt:Key"] ?? "SuperSecretKeySecretKey1234567890!";
