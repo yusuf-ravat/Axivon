@@ -41,6 +41,9 @@ public class Program
             builder.Services.AddDbContext<AxivonDbContext>(options =>
                 options.UseSqlite(connectionString));
 
+            builder.Services.AddScoped<IApplicationDbContext>(provider => 
+                provider.GetRequiredService<AxivonDbContext>());
+
 
 
 
